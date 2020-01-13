@@ -1,0 +1,82 @@
+.block{
+	background: DarkSlateGrey;
+	width: 30%;
+	float: left;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	cursor: pointer;
+	border-radius: 30%;
+	transition: background 0.5s;
+
+}
+
+#colorGrid{
+	max-width: 40%;
+	margin: 0 auto;
+	padding-top: 3vh;
+}
+
+h1{
+	text-align: center;
+	background: Moccasin;
+	margin: 0;
+	height: 20vh;
+	font-size: 8vh;
+	padding-top: 3.5vh
+	transition: background 0.5s;
+}
+h2{
+	margin: 0;
+	font-size: 5vh;
+}
+.strip1{
+	text-align: center;
+	background: white;
+	height: 7vh;
+	padding-top: 1vh;
+	border: 2px ridge black;
+}
+.strip2{
+	text-align: center;
+	background: white;
+	height: 6vh;
+	background: Moccasin;
+	transition: background 0.5s;
+}
+.strip3{
+	text-align: center;
+	background: white;
+	height: 5vh;
+	padding-top: 1vh;
+	background: Moccasin;
+	transition: background 0.5s;
+}
+
+body{
+	background: DarkSlateGrey;
+	margin: 0;
+	font-family: "avenir";
+	font-weight: normal;
+}
+button{
+	height: 4vh;
+	margin-top: 1vh;
+	cursor: pointer;
+	letter-spacing: 0.2vh;
+	font-size: 2.5vh;
+	padding: 0.5vh;
+	background: Moccasin;
+	border: 1.5px inset black;
+	transition: background 0.5s;
+	
+
+
+}
+
+button:hover{
+	background: BurlyWood;
+}
+#message{
+	height: 10px;
+	font-size: 2.5vh;
+}
